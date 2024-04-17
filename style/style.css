@@ -1,0 +1,84 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.nav-background-color{
+    background-color: #FBFBFB;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 25px;
+    border-bottom-width: 0.5px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+.navbar-main-logo{
+    width: 250px;
+    height: 250px;
+}
+.nav-logo-responsiveness{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hamburger-icon{
+    font-size: 30px;
+    margin-top: 100px;
+}
+.nav-mb-details{
+    text-align: center;
+}
+.nav-item{
+    list-style-type: none;
+    font-family: "Poppins", "Sans-serif";
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+.nav-item:hover{
+    color: orange;
+}
+.responsive-nav-mb{
+    display: none;
+}
+@media (min-width: 768px){
+    .hamburger-container{
+        display: none;
+    }
+    .responsive-nav-mb{
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-background-color{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-mb-details{
+        display: flex;
+        flex-direction: row;
+        margin-top: 110px;
+    }
+    .nav-item{
+        margin-right: 40px;
+    }
+}
+.tech-main-background{
+    background-color: #FBFBFB;
+    padding: 30px;
+    height: 100vh;
+    text-align: center;
+}
+.tech-work-main-heading{
+    font-family: "Poppins", "Sans-serif";
+    font-weight: bold;
+    font-size: 58px;
+    font-style: normal;
+}
+.tech-work-main-paragraph{
+    font-family: "Poppins", "Sans-serif";
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    color: #979797;
+}
